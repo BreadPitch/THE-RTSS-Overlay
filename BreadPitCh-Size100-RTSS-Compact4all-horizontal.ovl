@@ -1,0 +1,2469 @@
+[Master]
+Implementation=2
+FontFace=Lato
+FontHeight=-9
+FontWeight=400
+ZoomRatio=2
+[Settings]
+Name=BreadPitCh
+EnvVars=
+RefreshPeriod=1000
+EmbeddedImage=BreadPitCh.png
+PingAddr=185.60.112.157
+[General]
+Sources=144
+Tables=7
+Layers=92
+[Source0]
+Name=GPU1 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 clock
+[Source1]
+Name=GPU Clock
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=GPU Clock
+[Source2]
+Name=GPU Clock (Effective)
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=GPU Clock (Effective)
+[Source3]
+Name=GPU1 memory clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory clock
+[Source4]
+Name=GPU Memory Clock
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=GPU Memory Clock
+[Source5]
+Name=GPU1 voltage
+Units=mV
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 voltage
+[Source6]
+Name=GPU Core Voltage (VDDCR_GFX)
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=GPU Core Voltage (VDDCR_GFX)
+[Source7]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source8]
+Name=GPU Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU Temperature
+[Source9]
+Name=GPU1 temperature 2
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature 2
+[Source10]
+Name=GPU Hot Spot Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU Hot Spot Temperature
+[Source11]
+Name=GPU Hotspot Thermal Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=GPU Hotspot Thermal Limit
+[Source12]
+Name=GPU1 fan tachometer
+Units=RPM
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 fan tachometer
+[Source13]
+Name=GPU Fan
+Units=RPM
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=3
+ReadingName=GPU Fan
+[Source14]
+Name=GPU Fan PWM
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=GPU Fan PWM
+[Source15]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source16]
+Name=GPU Utilization
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=GPU Utilization
+[Source17]
+Name=GPU1 memory usage
+Units=GB
+Format=
+Formula=x/1024
+Provider=HAL
+ID=GPU1 memory usage
+[Source18]
+Name=GPU1 memory usage percent
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage percent
+[Source19]
+Name=GPU1 memory controller usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory controller usage
+[Source20]
+Name=GPU Memory Controller Utilization
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=GPU Memory Controller Utilization
+[Source21]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source22]
+Name=Total Graphics Power (TGP)
+Units=W
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=5
+ReadingName=Total Graphics Power (TGP)
+[Source23]
+Name=GPU SoC Voltage (VDDCR_SOC)
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=GPU SoC Voltage (VDDCR_SOC)
+[Source24]
+Name=GPU Memory Junction Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU Memory Junction Temperature
+[Source25]
+Name=GPU Memory Voltage (VDDCI_MEM)
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=GPU Memory Voltage (VDDCI_MEM)
+[Source26]
+Name=GPU Memory Voltage (VDDIO)
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=GPU Memory Voltage (VDDIO)
+[Source27]
+Name=GPU VR VDDC Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU VR VDDC Temperature
+[Source28]
+Name=GPU VR SoC Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU VR SoC Temperature
+[Source29]
+Name=GPU VR VDDIO Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU VR VDDIO Temperature
+[Source30]
+Name=GPU VR VDDCI Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=GPU VR VDDCI Temperature
+[Source31]
+Name=GPU PPT
+Units=W
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=5
+ReadingName=GPU PPT
+[Source32]
+Name=GPU PPT Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=GPU PPT Limit
+[Source33]
+Name=GPU Core Current (VDDCR_GFX)
+Units=A
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=4
+ReadingName=GPU Core Current (VDDCR_GFX)
+[Source34]
+Name=GPU Core TDC Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=GPU Core TDC Limit
+[Source35]
+Name=GPU SoC Current (VDDCR_SOC)
+Units=A
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=4
+ReadingName=GPU SoC Current (VDDCR_SOC)
+[Source36]
+Name=GPU SOC TDC Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=GPU SOC TDC Limit
+[Source37]
+Name=PCIe Link Speed
+Units=GT/s
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=PCIe Link Speed
+[Source38]
+Name=CPU clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU clock
+[Source39]
+Name=Core 0 Clock (perf #4)
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=Core 0 Clock (perf #4)
+[Source40]
+Name=Core 0 T0 Effective Clock
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=Core 0 T0 Effective Clock
+[Source41]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source42]
+Name=CPU (Tctl/Tdie)
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=CPU (Tctl/Tdie)
+[Source43]
+Name=CCD1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CCD1 temperature
+[Source44]
+Name=CPU CCD1 (Tdie)
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=CPU CCD1 (Tdie)
+[Source45]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source46]
+Name=CPU Package Power
+Units=W
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=5
+ReadingName=CPU Package Power
+[Source47]
+Name=Bus clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=Bus clock
+[Source48]
+Name=Bus Clock
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=Bus Clock
+[Source49]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source50]
+Name=Total CPU Usage
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=Total CPU Usage
+[Source51]
+Name=RAM usage percent
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage percent
+[Source52]
+Name=RAM usage
+Units=GB
+Format=
+Formula=x/1024
+Provider=HAL
+ID=RAM usage
+[Source53]
+Name=CPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU1 usage
+[Source54]
+Name=CPU2 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU2 usage
+[Source55]
+Name=CPU3 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU3 usage
+[Source56]
+Name=CPU4 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU4 usage
+[Source57]
+Name=CPU5 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU5 usage
+[Source58]
+Name=CPU6 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU6 usage
+[Source59]
+Name=CPU7 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU7 usage
+[Source60]
+Name=CPU8 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU8 usage
+[Source61]
+Name=CPU9 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU9 usage
+[Source62]
+Name=CPU10 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU10 usage
+[Source63]
+Name=CPU11 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU11 usage
+[Source64]
+Name=CPU12 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU12 usage
+[Source65]
+Name=CPU13 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU13 usage
+[Source66]
+Name=CPU14 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU14 usage
+[Source67]
+Name=CPU15 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU15 usage
+[Source68]
+Name=CPU16 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU16 usage
+[Source69]
+Name=CPU1 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU1 clock
+[Source70]
+Name=CPU2 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU2 clock
+[Source71]
+Name=CPU3 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU3 clock
+[Source72]
+Name=CPU4 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU4 clock
+[Source73]
+Name=CPU5 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU5 clock
+[Source74]
+Name=CPU6 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU6 clock
+[Source75]
+Name=CPU7 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU7 clock
+[Source76]
+Name=CPU8 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU8 clock
+[Source77]
+Name=CPU9 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU9 clock
+[Source78]
+Name=CPU10 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU10 clock
+[Source79]
+Name=CPU11 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU11 clock
+[Source80]
+Name=CPU12 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU12 clock
+[Source81]
+Name=CPU13 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU13 clock
+[Source82]
+Name=CPU14 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU14 clock
+[Source83]
+Name=CPU15 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU15 clock
+[Source84]
+Name=CPU16 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU16 clock
+[Source85]
+Name=CPU1 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU1 effective clock
+[Source86]
+Name=CPU2 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU2 effective clock
+[Source87]
+Name=CPU3 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU3 effective clock
+[Source88]
+Name=CPU4 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU4 effective clock
+[Source89]
+Name=CPU5 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU5 effective clock
+[Source90]
+Name=CPU6 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU6 effective clock
+[Source91]
+Name=CPU7 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU7 effective clock
+[Source92]
+Name=CPU8 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU8 effective clock
+[Source93]
+Name=CPU9 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU9 effective clock
+[Source94]
+Name=CPU10 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU10 effective clock
+[Source95]
+Name=CPU11 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU11 effective clock
+[Source96]
+Name=CPU12 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU12 effective clock
+[Source97]
+Name=CPU13 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU13 effective clock
+[Source98]
+Name=CPU14 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU14 effective clock
+[Source99]
+Name=CPU15 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU15 effective clock
+[Source100]
+Name=CPU16 effective clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU16 effective clock
+[Source101]
+Name=CPU Core Voltage (SVI2 TFN)
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=CPU Core Voltage (SVI2 TFN)
+[Source102]
+Name=CPU Core VID (Effective)
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=CPU Core VID (Effective)
+[Source103]
+Name=SoC Voltage (SVI2 TFN)
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=SoC Voltage (SVI2 TFN)
+[Source104]
+Name=CPU +1.8V
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=CPU +1.8V
+[Source105]
+Name=CPU PPT
+Units=W
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=5
+ReadingName=CPU PPT
+[Source106]
+Name=CPU PPT Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=CPU PPT Limit
+[Source107]
+Name=CPU TDC
+Units=A
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=4
+ReadingName=CPU TDC
+[Source108]
+Name=CPU TDC Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=CPU TDC Limit
+[Source109]
+Name=CPU EDC
+Units=A
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=4
+ReadingName=CPU EDC
+[Source110]
+Name=CPU EDC Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=CPU EDC Limit
+[Source111]
+Name=Thermal Limit
+Units=%
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=7
+ReadingName=Thermal Limit
+[Source112]
+Name=DRAM Read Bandwidth
+Units=GB/s
+Format=%0.3f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=DRAM Read Bandwidth
+[Source113]
+Name=DRAM Write Bandwidth
+Units=GB/s
+Format=%0.3f
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=DRAM Write Bandwidth
+[Source114]
+Name=Infinity Fabric Clock (FCLK)
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=Infinity Fabric Clock (FCLK)
+[Source115]
+Name=Memory Controller Clock (UCLK)
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=6
+ReadingName=Memory Controller Clock (UCLK)
+[Source116]
+Name=Memory Clock
+Units=MHz
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=1
+ReadingType=6
+ReadingName=Memory Clock
+[Source117]
+Name=Memory Clock DDR
+Units=MHz
+Format=
+Formula=x*2
+Provider=HwInfo
+SensorInst=1
+ReadingType=6
+ReadingName=Memory Clock
+[Source118]
+Name=Tcas
+Units=T
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=1
+ReadingType=8
+ReadingName=Tcas
+[Source119]
+Name=Command Rate
+Units=T
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=1
+ReadingType=8
+ReadingName=Command Rate
+[Source120]
+Name=DRAM
+Units=mV
+Format=
+Formula=x*1000
+Provider=HwInfo
+SensorInst=0
+ReadingType=2
+ReadingName=DRAM
+[Source121]
+Name=Chipset-t
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=Chipset
+[Source122]
+Name=MOS-t
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=MOS
+[Source123]
+Name=System-t
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=System
+[Source124]
+Name=CPU-f
+Units=RPM
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=3
+ReadingName=CPU
+[Source125]
+Name=Chipset-f
+Units=RPM
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=3
+ReadingName=Chipset
+[Source126]
+Name=PUMPFAN-f
+Units=RPM
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=3
+ReadingName=PUMPFAN
+[Source127]
+Name=System 1-f
+Units=RPM
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=3
+ReadingName=System 1
+[Source128]
+Name=Water Temperature
+Units=°C
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=1
+ReadingName=Water Temperature
+[Source129]
+Name=Pump-p
+Units=RPM
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=3
+ReadingName=Pump
+[Source130]
+Name=Ping
+Units=ms
+Format=
+Formula=
+Provider=HAL
+ID=Ping
+[Source131]
+Name=NIC 0 DL
+Units=MB/s
+Format=%.0f
+Formula=x / 1048576
+Provider=PerfCounter
+ObjectName=Network Interface
+InstanceIndex=0
+CounterName=Bytes Received/sec
+Dynamic=0
+[Source132]
+Name=NIC 0 UL
+Units=MB/s
+Format=%.0f
+Formula=x / 1048576
+Provider=PerfCounter
+ObjectName=Network Interface
+InstanceIndex=0
+CounterName=Bytes Sent/sec
+Dynamic=0
+[Source133]
+Name=NIC1 DL
+Units=MB/s
+Format=%.0f
+Formula=x / 1048576
+Provider=PerfCounter
+ObjectName=Network Interface
+InstanceIndex=1
+CounterName=Bytes Received/sec
+Dynamic=0
+[Source134]
+Name=NIC1 UL
+Units=MB/s
+Format=%.0f
+Formula=x / 1048576
+Provider=PerfCounter
+ObjectName=Network Interface
+InstanceIndex=1
+CounterName=Bytes Sent/sec
+Dynamic=0
+[Source135]
+Name=Total Errors
+Units=
+Format=
+Formula=
+Provider=HwInfo
+SensorInst=0
+ReadingType=8
+ReadingName=Total Errors
+[Source136]
+Name=IsAMDCPU
+Units=
+Format=
+Formula=cpuvendor == 0x1022
+Provider=HAL
+ID=Stub
+[Source137]
+Name=IsIntelCPU
+Units=
+Format=
+Formula=cpuvendor == 0x8086
+Provider=HAL
+ID=Stub
+[Source138]
+Name=IsAMDGPU
+Units=
+Format=
+Formula=gpuvendor == 0x1002
+Provider=HAL
+ID=Stub
+[Source139]
+Name=IsIntelGPU
+Units=
+Format=
+Formula=gpuvendor == 0x8086
+Provider=HAL
+ID=Stub
+[Source140]
+Name=IsnVidiaGPU
+Units=
+Format=
+Formula=gpuvendor == 0x10de
+Provider=HAL
+ID=Stub
+[Source141]
+Name=Is-16-Core-Layout
+Units=
+Format=
+Formula="cpucount"<=16
+Provider=HAL
+ID=Stub
+[Source142]
+Name=Is-32-Core-Layout
+Units=
+Format=
+Formula="cpucount">16
+Provider=HAL
+ID=Stub
+[Source143]
+Name=Is-Watercooled
+Units=
+Format=
+Formula="GPU1 fan tachometer"==0
+Provider=HAL
+ID=Stub
+[Table0]
+Name=Table RTSS
+ValueAlignment=-3
+UnitsAlignment=4
+Lines=4
+Line0Name=
+Line0Cells=5
+Line0Cell0Text=avg
+Line0Cell1Text=1%
+Line0Cell2Text=0,1%
+Line0Cell3Text=min
+Line0Cell4Text=max
+Line1Name="FPS  "
+Line1Cells=5
+Line1Cell0Source=Framerate Avg
+Line1Cell1Source=Framerate 1% Low
+Line1Cell2Source=Framerate 0.1% Low
+Line1Cell3Source=Framerate Min
+Line1Cell4Source=Framerate Max
+Line2Name=FR
+Line2Cells=1
+Line2Cell0Source=Framerate
+Line3Name=FT
+Line3Cells=1
+Line3Cell0Source=Frametime
+[Table1]
+Name=Table GPU
+ValueAlignment=-3
+UnitsAlignment=4
+Lines=6
+Line0Name=
+Line0Cells=5
+Line0Cell0Text=clock
+Line0Cell1Text=temp
+Line0Cell2Text=vCore
+Line0Cell3Text=vSoC
+Line0Cell4Text=Usage
+Line1Name=Eff
+Line1Cells=5
+Line1Cell0Source=GPU Clock (Effective)
+Line1Cell1Source=GPU1 temperature 2
+Line1Cell1Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU1 temperature 2,1)
+Line1Cell2Source=GPU Core Voltage (VDDCR_GFX)
+Line1Cell3Text=
+Line1Cell4Source=GPU1 power
+Line2Name=Core
+Line2Cells=5
+Line2Cell0Source=GPU1 clock
+Line2Cell1Source=GPU1 temperature
+Line2Cell1Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU1 temperature,1)
+Line2Cell2Source=GPU1 voltage
+Line2Cell3Source=GPU SoC Voltage (VDDCR_SOC)
+Line2Cell4Source=GPU1 usage
+Line3Name=Mem
+Line3Cells=5
+Line3Cell0Source=GPU1 memory clock
+Line3Cell1Source=GPU Memory Junction Temperature
+Line3Cell1Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU Memory Junction Temperature,1)
+Line3Cell2Source=GPU Memory Voltage (VDDIO)
+Line3Cell3Source=GPU Memory Voltage (VDDCI_MEM)
+Line3Cell4Source=GPU1 memory controller usage
+Line4Name=
+Line4Cells=5
+Line4Cell0Text=
+Line4Cell1Text=vddCI
+Line4Cell2Text=vddIO
+Line4Cell3Text=vrSoC
+Line4Cell4Text=vddC
+Line5Name=PCIe
+Line5Cells=5
+Line5Cell0Source=PCIe Link Speed
+Line5Cell1Source=GPU VR VDDCI Temperature
+Line5Cell1Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU VR VDDCI Temperature,1)
+Line5Cell2Source=GPU VR VDDIO Temperature
+Line5Cell2Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU VR VDDIO Temperature,1)
+Line5Cell3Source=GPU VR SoC Temperature
+Line5Cell3Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU VR SoC Temperature,1)
+Line5Cell4Source=GPU VR VDDC Temperature
+Line5Cell4Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU VR VDDC Temperature,1)
+[Table2]
+Name=Table CPU
+ValueAlignment=-3
+UnitsAlignment=4
+Lines=7
+Line0Name=
+Line0Cells=5
+Line0Cell0Text=clock
+Line0Cell1Text=temp
+Line0Cell2Text=vCore
+Line0Cell3Text=Soc/1p8
+Line0Cell4Text=Usage
+Line1Name=Eff
+Line1Cells=5
+Line1Cell0Source=CPU1 effective clock
+Line1Cell1Source=CCD1 temperature
+Line1Cell1Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(CCD1 temperature,1)
+Line1Cell2Source=CPU Core VID (Effective)
+Line1Cell3Source=SoC Voltage (SVI2 TFN)
+Line1Cell4Source=CPU power
+Line2Name=Core
+Line2Cells=5
+Line2Cell0Source=CPU clock
+Line2Cell1Source=CPU temperature
+Line2Cell1Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(CPU temperature,1)
+Line2Cell2Source=CPU Core Voltage (SVI2 TFN)
+Line2Cell3Source=CPU +1.8V
+Line2Cell4Source=CPU usage
+Line3Name=Mem
+Line3Cells=5
+Line3Cell0Source=Memory Clock
+Line3Cell1Text=C%Tcas%<S=50>%Command Rate%T<S>
+Line3Cell2Source=DRAM
+Line3Cell3Text=
+Line3Cell4Source=RAM usage percent
+Line4Name=Uclk
+Line4Cells=5
+Line4Cell0Source=Memory Controller Clock (UCLK)
+Line4Cell1Text=PCH
+Line4Cell2Text=MOS
+Line4Cell3Text=Sys
+Line4Cell4Text=
+Line5Name=Fclk
+Line5Cells=4
+Line5Cell0Source=Infinity Fabric Clock (FCLK)
+Line5Cell1Source=Chipset-t
+Line5Cell1Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(Chipset-t,1)
+Line5Cell2Source=MOS-t
+Line5Cell2Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(MOS-t,1)
+Line5Cell3Source=System-t
+Line5Cell3Color=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(System-t,1)
+Line6Name=Bclk
+Line6Cells=4
+Line6Cell0Source=Bus clock
+Line6Cell1Source=Chipset-f
+Line6Cell1Color=800080FF,0,600,8000FFDD,600,700,80BEFD1F,700,800,80DFD401,800,900,80FF8000,900,(Chipset-f,1)
+Line6Cell2Source=PUMPFAN-f
+Line6Cell2Color=800080FF,0,600,8000FFDD,600,700,80BEFD1F,700,800,80DFD401,800,900,80FF8000,900,(PUMPFAN-f,1)
+Line6Cell3Source=System 1-f
+Line6Cell3Color=800080FF,0,600,8000FFDD,600,700,80BEFD1F,700,800,80DFD401,800,900,80FF8000,900,(System 1-f,1)
+[Table3]
+Name=Table NET
+ValueAlignment=-3
+UnitsAlignment=4
+Lines=3
+Line0Name=%Ping%<S=50>ns<S>
+Line0Color=800080FF,0,20,8000FFDD,20,30,80BEFD1F,30,40,80DFD401,40,50,80FF8000,50,(Ping,1)
+Line0Cells=2
+Line0Cell0Text=Down
+Line0Cell1Text=Up
+Line1Name=NIC0
+Line1Cells=2
+Line1Cell0Source=NIC 0 DL
+Line1Cell1Source=NIC 0 UL
+Line2Name=NIC1
+Line2Cells=2
+Line2Cell0Source=NIC1 DL
+Line2Cell1Source=NIC1 UL
+[Table4]
+Name=Table Core#16 1-16
+ValueSize=50
+ValueAlignment=-3
+UnitsSize=5
+Lines=3
+Line0Name=
+Line0Cells=16
+Line0Cell0Source=CPU1 clock
+Line0Cell1Source=CPU2 clock
+Line0Cell2Source=CPU3 clock
+Line0Cell3Source=CPU4 clock
+Line0Cell4Source=CPU5 clock
+Line0Cell5Source=CPU6 clock
+Line0Cell6Source=CPU7 clock
+Line0Cell7Source=CPU8 clock
+Line0Cell8Source=CPU9 clock
+Line0Cell9Source=CPU10 clock
+Line0Cell10Source=CPU11 clock
+Line0Cell11Source=CPU12 clock
+Line0Cell12Source=CPU13 clock
+Line0Cell13Source=CPU14 clock
+Line0Cell14Source=CPU15 clock
+Line0Cell15Source=CPU16 clock
+Line1Name=
+Line1Cells=1
+Line1Cell0Text=
+Line2Name=
+Line2Cells=16
+Line2Cell0Source=CPU1 usage
+Line2Cell1Source=CPU2 usage
+Line2Cell2Source=CPU3 usage
+Line2Cell3Source=CPU4 usage
+Line2Cell4Source=CPU5 usage
+Line2Cell5Source=CPU6 usage
+Line2Cell6Source=CPU7 usage
+Line2Cell7Source=CPU8 usage
+Line2Cell8Source=CPU9 usage
+Line2Cell9Source=CPU10 usage
+Line2Cell10Source=CPU11 usage
+Line2Cell11Source=CPU12 usage
+Line2Cell12Source=CPU13 usage
+Line2Cell13Source=CPU14 usage
+Line2Cell14Source=CPU15 usage
+Line2Cell15Source=CPU16 usage
+[Table5]
+Name=Table Core#32 1-16
+ValueSize=50
+ValueAlignment=-3
+UnitsSize=5
+Lines=2
+Line0Name=
+Line0Cells=16
+Line0Cell0Source=CPU1 clock
+Line0Cell1Source=CPU2 clock
+Line0Cell2Source=CPU3 clock
+Line0Cell3Source=CPU4 clock
+Line0Cell4Source=CPU5 clock
+Line0Cell5Source=CPU6 clock
+Line0Cell6Source=CPU7 clock
+Line0Cell7Source=CPU8 clock
+Line0Cell8Source=CPU9 clock
+Line0Cell9Source=CPU10 clock
+Line0Cell10Source=CPU11 clock
+Line0Cell11Source=CPU12 clock
+Line0Cell12Source=CPU13 clock
+Line0Cell13Source=CPU14 clock
+Line0Cell14Source=CPU15 clock
+Line0Cell15Source=CPU16 clock
+Line1Name=
+Line1Cells=16
+Line1Cell0Source=CPU1 usage
+Line1Cell1Source=CPU2 usage
+Line1Cell2Source=CPU3 usage
+Line1Cell3Source=CPU4 usage
+Line1Cell4Source=CPU5 usage
+Line1Cell5Source=CPU6 usage
+Line1Cell6Source=CPU7 usage
+Line1Cell7Source=CPU8 usage
+Line1Cell8Source=CPU9 usage
+Line1Cell9Source=CPU10 usage
+Line1Cell10Source=CPU11 usage
+Line1Cell11Source=CPU12 usage
+Line1Cell12Source=CPU13 usage
+Line1Cell13Source=CPU14 usage
+Line1Cell14Source=CPU15 usage
+Line1Cell15Source=CPU16 usage
+[Table6]
+Name=Table Core#32 17-32
+ValueSize=50
+ValueAlignment=-3
+UnitsSize=5
+Lines=2
+Line0Name=
+Line0Cells=16
+Line0Cell0Source=CPU17 clock
+Line0Cell1Source=CPU18 clock
+Line0Cell2Source=CPU19 clock
+Line0Cell3Source=CPU20 clock
+Line0Cell4Source=CPU21 clock
+Line0Cell5Source=CPU22 clock
+Line0Cell6Source=CPU23 clock
+Line0Cell7Source=CPU24 clock
+Line0Cell8Source=CPU25 clock
+Line0Cell9Source=CPU26 clock
+Line0Cell10Source=CPU27 clock
+Line0Cell11Source=CPU28 clock
+Line0Cell12Source=CPU29 clock
+Line0Cell13Source=CPU30 clock
+Line0Cell14Source=CPU31 clock
+Line0Cell15Source=CPU32 clock
+Line1Name=
+Line1Cells=16
+Line1Cell0Source=CPU17 usage
+Line1Cell1Source=CPU18 usage
+Line1Cell2Source=CPU19 usage
+Line1Cell3Source=CPU20 usage
+Line1Cell4Source=CPU21 usage
+Line1Cell5Source=CPU22 usage
+Line1Cell6Source=CPU23 usage
+Line1Cell7Source=CPU24 usage
+Line1Cell8Source=CPU25 usage
+Line1Cell9Source=CPU26 usage
+Line1Cell10Source=CPU27 usage
+Line1Cell11Source=CPU28 usage
+Line1Cell12Source=CPU29 usage
+Line1Cell13Source=CPU30 usage
+Line1Cell14Source=CPU31 usage
+Line1Cell15Source=CPU32 usage
+[Layer0]
+Name=Layer Performance counter
+Text=<RES> | <APP> | <EXE><S=50><ARCH><S>
+PositionX=0
+PositionY=0
+ExtentX=-29
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer1]
+Name=RTSS
+Text=<TT=Table RTSS>
+PositionX=0
+PositionY=-1
+ExtentX=-29
+ExtentY=-4
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer2]
+Name=
+Text=
+PositionX=0
+PositionY=-1
+ExtentX=-29
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer3]
+Name=
+Text=
+PositionX=0
+PositionY=-2
+ExtentX=-3
+ExtentY=-3
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer4]
+Name=Layer FR Bar
+VisibilitySource=Framerate (Presented)
+Text=<G=Framerate,-21,-1,1,0,240,11>
+PositionX=-8
+PositionY=-3
+ExtentX=-21
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF8000,0,30,80DFD401,30,60,80BEFD1F,60,90,8000FFDD,90,120,800080FF,120,(Framerate,3)
+[Layer5]
+Name=Layer FR History
+VisibilitySource=Framerate (Presented)
+Text=<G=Framerate history,-21,-1,1,0,240,0>
+PositionX=-8
+PositionY=-3
+ExtentX=-21
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF8000,0,30,80DFD401,30,60,80BEFD1F,60,90,8000FFDD,90,120,800080FF,120,(Framerate,3)
+[Layer6]
+Name=Layer FT Bar
+VisibilitySource=Frame Time
+Text=<G=Frametime,-21,-1,1,0,33,11>
+PositionX=-8
+PositionY=-4
+ExtentX=-21
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,7,8000FFDD,7,11,80BEFD1F,11,17,80DFD401,17,33,80FF8000,33,(Frametime,3)
+[Layer7]
+Name=Layer FT History
+VisibilitySource=Frame Time
+Text=<G=Frametime history,-21,-1,1,0,33,0>
+PositionX=-8
+PositionY=-4
+ExtentX=-21
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,7,8000FFDD,7,11,80BEFD1F,11,17,80DFD401,17,33,80FF8000,33,(Frametime,3)
+[Layer8]
+Name=Layer GP'U Driver
+Text=" <S=-50>%Driver%<S>"
+PositionX=-30
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer9]
+Name=Layer Date
+Text=" <S=-50>%Date%<S>"
+PositionX=-58
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer10]
+Name=Layer GPU Header
+Text=%GPU% <S>%VRAM%<S>
+PositionX=-30
+PositionY=0
+ExtentX=-19
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer11]
+Name=Layer GPU Temp Bar
+Text=<G=GPU1 temperature,-6,-1,1,0,90,18>
+PositionX=-49
+PositionY=0
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(GPU1 temperature,1)
+[Layer12]
+Name=Layer GPU Temp History
+Text=<G=GPU1 temperature,-6,-1,1,0,90,0>
+PositionX=-49
+PositionY=0
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,45,FFDD,45,55,BEFD1F,55,65,DFD401,65,75,FF8000,75,(GPU1 temperature,3)
+[Layer13]
+Name=Layer GPU Temp text
+Text=%GPU1 temperature%° | %GPU1 temperature 2%°
+PositionX=-54
+PositionY=0
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer14]
+Name=Layer GPU Fan Bar
+VisibilitySource=GPU1 fan tachometer
+Text=<G=GPU fan PWM,-4,-1,1,0,100,18>
+PositionX=-55
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(GPU Fan PWM,1)
+[Layer15]
+Name=Layer GPU Fan History
+VisibilitySource=GPU1 fan tachometer
+Text=<G=GPU fan PWM,-4,-1,1,0,100,0>
+PositionX=-55
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU Fan PWM,3)
+[Layer16]
+Name=Layer GPU Fan text
+VisibilitySource=GPU1 fan tachometer
+Text=%GPU1 fan tachometer%<S=50>rpm<S>
+PositionX=-58
+PositionY=0
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer17]
+Name=Layer Intel GPU Logo
+VisibilitySource=IsIntelGPU
+Text=<I=0,0,256,0,128,128>
+PositionX=-30
+PositionY=-1
+ExtentX=-3
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4D0080FF
+[Layer18]
+Name=Layer nVidia GPU Logo
+VisibilitySource=IsnVidiaGPU
+Text=<I=0,0,128,0,128,128>
+PositionX=-30
+PositionY=-1
+ExtentX=-3
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4D00FF00
+[Layer19]
+Name=Layer AMD GPU Logo
+VisibilitySource=IsAMDGPU
+Text=<I=0,0,0,0,128,128>
+PositionX=-30
+PositionY=-1
+ExtentX=-3
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DFF0000
+[Layer20]
+Name=Layer GPU usage Bar
+Text=<G=GPU1 usage,-26,-1,1,0,100,18>
+PositionX=-33
+PositionY=-1
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(GPU1 usage,1)
+[Layer21]
+Name=Layer GPU usage History
+Text=<G=GPU1 usage,-26,-1,1,0,100,0>
+PositionX=-33
+PositionY=-1
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU1 usage,3)
+[Layer22]
+Name=Layer GPU clock
+Text=%GPU1 clock%<S=50>MHz<S>
+PositionX=-37
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer23]
+Name=Layer GPU voltage
+Text=%GPU1 voltage%<S=50>mV<S>
+PositionX=-42
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer24]
+Name=Layer GPU power
+Text=%GPU1 power%<S=50>W<S>
+PositionX=-54
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer25]
+Name=Layer GPU usage percent
+Text=%GPU1 usage%<S=50>% gpu<S>
+PositionX=-58
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer26]
+Name=Layer VRAM usage Bar
+Text=<G=GPU1 memory usage percent,-26,-1,1,0,100,18>
+PositionX=-33
+PositionY=-2
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(GPU1 memory usage percent,1)
+[Layer27]
+Name=Layer VRAM usage History
+Text=<G=GPU1 memory usage percent,-26,-1,1,0,100,0>
+PositionX=-33
+PositionY=-2
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU1 memory usage percent,3)
+[Layer28]
+Name=Layer VRAM clock
+Text=%GPU1 memory clock%<S=50>MHz<S>
+PositionX=-37
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer29]
+Name=Layer VRAM usage text
+Text=%GPU1 memory usage% <S=50>/ %VRAM%<S>
+PositionX=-54
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer30]
+Name=Layer VRAM usage percent
+Text=%GPU1 memory usage percent%<S=50>% ram<S>
+PositionX=-58
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer31]
+Name=Layer GPU PPT Bar
+VisibilitySource=GPU PPT Limit
+Text=<G=GPU PPT Limit,-9,-1,1,0,100,18>
+PositionX=-30
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(GPU PPT Limit,1)
+[Layer32]
+Name=Layer GPU PPT History
+VisibilitySource=GPU PPT Limit
+Text=<G=GPU PPT Limit,-9,-1,1,0,100,0>
+PositionX=-30
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU PPT Limit,3)
+[Layer33]
+Name=Layer GPU PPT text
+VisibilitySource=GPU PPT Limit
+Text=%GPU1 power%<S=50>W<S> | %GPU PPT Limit%<S=50>% PPT<S>
+PositionX=-38
+PositionY=-3
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer34]
+Name=Layer GPU TDC Bar
+VisibilitySource=GPU Core TDC Limit
+Text=<G=GPU Core TDC Limit,-9,-1,1,0,100,18>
+PositionX=-40
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(GPU Core TDC Limit,1)
+[Layer35]
+Name=Layer GPU TDC History
+VisibilitySource=GPU Core TDC Limit
+Text=<G=GPU Core TDC Limit,-9,-1,1,0,100,0>
+PositionX=-40
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU Core TDC Limit,3)
+[Layer36]
+Name=Layer GPU TDC text
+VisibilitySource=GPU Core TDC Limit
+Text=%GPU Core Current (VDDCR_GFX)%<S=50>A<S> | %GPU Core TDC Limit%<S=50>% TDC<S>
+PositionX=-48
+PositionY=-3
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer37]
+Name=Layer GPU SoC TDC Bar
+VisibilitySource=GPU SOC TDC Limit
+Text=<G=GPU SOC TDC Limit,-9,-1,1,0,100,18>
+PositionX=-50
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(GPU SOC TDC Limit,1)
+[Layer38]
+Name=Layer GPU SoC TDC History
+VisibilitySource=GPU SOC TDC Limit
+Text=<G=GPU SOC TDC Limit,-9,-1,1,0,100,0>
+PositionX=-50
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU SOC TDC Limit,3)
+[Layer39]
+Name=Layer GPU SoC TDC text
+VisibilitySource=GPU SOC TDC Limit
+Text=%GPU SoC Current (VDDCR_SOC)%<S=50>A<S> | %GPU SOC TDC Limit%<S=50>% SoC<S>
+PositionX=-58
+PositionY=-3
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer40]
+Name=Layer CPU Header
+Text=%CPUShort% | %RAM%
+PositionX=-60
+PositionY=0
+ExtentX=-19
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer41]
+Name=Layer RAM Header
+VisibilitySource=Memory Clock DDR
+Text=%Memory Clock DDR%-%Tcas%-%Command Rate%<S=50>T<S>
+PositionX=-78
+PositionY=0
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer42]
+Name=Layer CPU Temp Bar
+Text=<G=CPU temperature,-6,-1,1,0,90,18>
+PositionX=-79
+PositionY=0
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,45,8000FFDD,45,55,80BEFD1F,55,65,80DFD401,65,75,80FF8000,75,(CPU temperature,1)
+[Layer43]
+Name=Layer CPU Temp History
+Text=<G=CPU temperature,-6,-1,1,0,90,0>
+PositionX=-79
+PositionY=0
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,45,FFDD,45,55,BEFD1F,55,65,DFD401,65,75,FF8000,75,(CPU temperature,3)
+[Layer44]
+Name=Layer CPU Temp text
+Text=%CPU temperature%° | %CCD1 temperature%°
+PositionX=-84
+PositionY=0
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer45]
+Name=Layer CPU Fan Bar
+VisibilitySource=CPU-f
+Text=<G=CPU-f,-4,-1,1,0,1200,18>
+PositionX=-85
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,600,8000FFDD,600,700,80BEFD1F,700,800,80DFD401,800,900,80FF8000,900,(CPU-f,1)
+[Layer46]
+Name=Layer CPU Fan History
+VisibilitySource=CPU-f
+Text=<G=CPU-f,-4,-1,1,0,1200,0>
+PositionX=-85
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,600,FFDD,600,700,BEFD1F,700,800,DFD401,800,900,FF8000,900,(CPU-f,3)
+[Layer47]
+Name=Layer CPU Fan text
+VisibilitySource=CPU-f
+Text=%CPU-f%<S=50>rpm<S>
+PositionX=-88
+PositionY=0
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer48]
+Name=Layer Intel CPU Logo
+VisibilitySource=IsIntelCPU
+Text=<I=0,0,256,0,128,128>
+PositionX=-60
+PositionY=-1
+ExtentX=-3
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4D0080FF
+[Layer49]
+Name=Layer AMD CPU Logo
+VisibilitySource=IsAMDCPU
+Text=<I=0,0,0,0,128,128>
+PositionX=-60
+PositionY=-1
+ExtentX=-3
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DFF0000
+[Layer50]
+Name=Layer CPU usage Bar
+Text=<G=CPU usage,-26,-1,1,0,100,18>
+PositionX=-63
+PositionY=-1
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU usage,1)
+[Layer51]
+Name=Layer CPU usage History
+Text=<G=CPU usage,-26,-1,1,0,100,0>
+PositionX=-63
+PositionY=-1
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(CPU usage,3)
+[Layer52]
+Name=Layer CPU clock
+Text=%CPU clock%<S=50>MHz<S>
+PositionX=-67
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer53]
+Name=Layer CPU clock eff
+Text=%CPU1 effective clock%<S=50>MHz<S>
+PositionX=-72
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer54]
+Name=Layer CPU power
+Text=%CPU power%<S=50>W<S>
+PositionX=-84
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer55]
+Name=Layer CPU usage percent
+Text=%CPU usage%<S=50>% cpu<S>
+PositionX=-88
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer56]
+Name=Layer DRAM usage Bar
+Text=<G=RAM usage percent,-26,-1,1,0,100,18>
+PositionX=-63
+PositionY=-2
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(RAM usage percent,1)
+[Layer57]
+Name=Layer DRAM usage History
+Text=<G=RAM usage percent,-26,-1,1,0,100,0>
+PositionX=-63
+PositionY=-2
+ExtentX=-26
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(RAM usage percent,3)
+[Layer58]
+Name=Layer DRAM clock
+VisibilitySource=Memory Clock DDR
+Text=%Memory Clock DDR%<S=50>MHz<S>
+PositionX=-67
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer59]
+Name=Layer DRAM read
+VisibilitySource=DRAM Read Bandwidth
+Text=%DRAM Read Bandwidth%<S=50>GB/s R<S>
+PositionX=-73
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer60]
+Name=Layer DRAM write
+VisibilitySource=DRAM Write Bandwidth
+Text=%DRAM Write Bandwidth%<S=50>GB/s W<S>
+PositionX=-79
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer61]
+Name=Layer DRAM usage text
+Text=%RAM usage% <S=50>/ %RAM%<S>
+PositionX=-84
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer62]
+Name=Layer DRAM usage percent
+Text=%RAM usage percent%<S=50>% ram<S>
+PositionX=-88
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer63]
+Name=Layer CPU PPT Bar
+VisibilitySource=CPU PPT Limit
+Text=<G=CPU PPT Limit,-9,-1,1,0,100,18>
+PositionX=-60
+PositionY=-3
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU PPT Limit,1)
+[Layer64]
+Name=Layer CPU PPT History
+VisibilitySource=CPU PPT Limit
+Text=<G=CPU PPT Limit,-9,-1,1,0,100,0>
+PositionX=-60
+PositionY=-3
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU PPT Limit,3)
+[Layer65]
+Name=Layer CPU PPT text
+VisibilitySource=CPU PPT
+Text=%CPU power%<S=50>W<S> | %CPU PPT Limit%<S=50>% PPT<S>
+PositionX=-68
+PositionY=-3
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer66]
+Name=Layer CPU TDC Bar
+VisibilitySource=CPU TDC Limit
+Text=<G=CPU TDC Limit,-9,-1,1,0,100,18>
+PositionX=-70
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU TDC Limit,1)
+[Layer67]
+Name=Layer CPU TDC History
+VisibilitySource=CPU TDC Limit
+Text=<G=CPU TDC Limit,-9,-1,1,0,100,0>
+PositionX=-70
+PositionY=-3
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(CPU TDC Limit,3)
+[Layer68]
+Name=Layer CPU TDC text
+VisibilitySource=CPU TDC
+Text=%CPU TDC%<S=50>A<S> | %CPU TDC Limit%<S=50>% TDC<S>
+PositionX=-78
+PositionY=-3
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer69]
+Name=Layer CPU EDC Bar
+VisibilitySource=CPU EDC Limit
+Text=<G=CPU EDC Limit,-9,-1,1,0,100,18>
+PositionX=-80
+PositionY=-3
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU EDC Limit,1)
+[Layer70]
+Name=Layer CPU EDC History
+VisibilitySource=CPU EDC Limit
+Text=<G=CPU EDC Limit,-9,-1,1,0,100,0>
+PositionX=-80
+PositionY=-3
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(CPU EDC Limit,3)
+[Layer71]
+Name=Layer CPU EDC text
+VisibilitySource=CPU EDC
+Text=%CPU EDC%<S=50>A<S> | %CPU EDC Limit%<S=50>% EDC<S>
+PositionX=-88
+PositionY=-3
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer72]
+Name=Layer Core#32 1-16 usage Bar
+VisibilitySource=Is-32-Core-Layout
+Text=<G=CPU1 usage,-2,-1,1,0,100,38><G=CPU2 usage><G=CPU3 usage><G=CPU4 usage><G=CPU5 usage><G=CPU6 usage><G=CPU7 usage><G=CPU8 usage><G=CPU9 usage><G=CPU10 usage><G=CPU11 usage><G=CPU12 usage><G=CPU13 usage><G=CPU14 usage><G=CPU15 usage><G=CPU16 usage>
+PositionX=-90
+PositionY=0
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+Size=90
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU usage,3)
+[Layer73]
+Name=Layer Core#32 1-16 usage text
+VisibilitySource=Is-32-Core-Layout
+Text=<TT=Table Core#32 1-16>
+PositionX=-90
+PositionY=0
+ExtentX=-29
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer74]
+Name=Layer Core#32 17-32 usage Bar
+VisibilitySource=Is-32-Core-Layout
+Text=<G=Framerate,-2,-1,1,0,100,38><G=CPU18 usage><G=CPU19 usage><G=CPU20 usage><G=CPU21 usage><G=CPU22 usage><G=CPU23 usage><G=CPU24 usage><G=CPU25 usage><G=CPU26 usage><G=CPU27 usage><G=CPU28 usage><G=CPU29 usage><G=CPU30 usage><G=CPU31 usage><G=CPU32 usage>
+PositionX=-90
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+Size=90
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU usage,3)
+[Layer75]
+Name=Layer Core#32 17-32 usage text
+VisibilitySource=Is-32-Core-Layout
+Text=<TT=Table Core#32 17-32>
+PositionX=-90
+PositionY=-1
+ExtentX=-29
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer76]
+Name=Layer Core#16 1-16 usage Bar
+VisibilitySource=Is-16-Core-Layout
+Text=<G=CPU1 usage,-2,-2,1,0,100,38><G=CPU2 usage><G=CPU3 usage><G=CPU4 usage><G=CPU5 usage><G=CPU6 usage><G=CPU7 usage><G=CPU8 usage><G=CPU9 usage><G=CPU10 usage><G=CPU11 usage><G=CPU12 usage><G=CPU13 usage><G=CPU14 usage><G=CPU15 usage><G=CPU16 usage>
+PositionX=-90
+PositionY=0
+ExtentX=-29
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+Size=90
+TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU usage,3)
+[Layer77]
+Name=Layer Core#16 1-16 usage text
+VisibilitySource=Is-16-Core-Layout
+Text=<TT=Table Core#16 1-16>
+PositionX=-90
+PositionY=0
+ExtentX=-29
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer78]
+Name=Layer Water Bar
+VisibilitySource=Water Temperature
+Text=<G=Water Temperature,-29,-1,1,0,50,18>
+PositionX=-60
+PositionY=-4
+ExtentX=-29
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,20,8000FFDD,20,30,80BEFD1F,30,40,80DFD401,40,50,80FF8000,50,(Water Temperature,1)
+[Layer79]
+Name=Layer Water History
+VisibilitySource=Water Temperature
+Text=<G=Water Temperature,-29,-1,1,0,50,0>
+PositionX=-60
+PositionY=-4
+ExtentX=-29
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=800080FF,0,20,8000FFDD,20,30,80BEFD1F,30,40,80DFD401,40,50,80FF8000,50,(Water Temperature,3)
+[Layer80]
+Name=Layer Pump rpm
+VisibilitySource=Pump-p
+Text=Pump %Pump-p%<S=50>rpm<S>
+PositionX=-60
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer81]
+Name=Layer Pump Fan
+VisibilitySource=Pump-p
+Text=Fan %CPU-f%<S=50>rpm<S>
+PositionX=-69
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer82]
+Name=Layer Pump Flow
+VisibilitySource=Pump-p
+Text=Flow <S=50>L/min<S>
+PositionX=-77
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer83]
+Name=Layer Water Temp
+VisibilitySource=Water Temperature
+Text=%Water Temperature%° <S=50>Water<S>
+PositionX=-88
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer84]
+Name=Layer NET
+Text=<TT=Table NET>
+PositionX=-90
+PositionY=-2
+ExtentX=-9
+ExtentY=-3
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer85]
+Name=
+Text=
+PositionX=-90
+PositionY=-2
+ExtentX=-13
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer86]
+Name=
+Text=
+PositionX=-90
+PositionY=-3
+ExtentX=-3
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer87]
+Name=Layer WHEA Header
+Text=WHEA
+PositionX=-111
+PositionY=-2
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer88]
+Name=
+Text=
+PositionX=-108
+PositionY=-2
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+BgndColor=4DC0C0C0
+[Layer89]
+Name=Layer WHEA count
+VisibilitySource=Total Errors
+Text=%Total Errors%
+PositionX=-111
+PositionY=-3
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+TextColor=80FF8000
+[Layer90]
+Name=Layer Logo
+Text=<I=0,0,384,0,128,128>
+PositionX=-116
+PositionY=-2
+ExtentX=-3
+ExtentY=-2
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FFFFFF
+[Layer91]
+Name=Layer Signature
+Text=(c) BreadPitCh
+PositionX=-118
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+Alignment=-1
+FixedAlignment=1
+Size=50
+TextColor=80FFFFFF
