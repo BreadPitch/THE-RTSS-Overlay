@@ -2,7 +2,7 @@
 Provides a sleek, yet pretty complete overlay for use with RTSS / RivaTuner Statistics Server.
 Made for AMD Ryzen + RDNA 1/2/3, but trimmed down for compatibility with most CPUs and GPUs.
 
-![Screenshot (50)](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/35adf2a8-4573-40b5-ba12-396b67259be2)
+![RTSS Overlay Screenshot OW2 Full](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/9f643e49-674d-46c8-ab2b-460aee7064d2)
 
 <h1>Features</h1>
 <ul>
@@ -71,26 +71,26 @@ The only tip specific to my overlay:
 
 The standard version is ideal for Ultra-Wide Displays, like UWQHD / 3440x1440p, this is what it looks like in OW2:
 
-![RTSS Overlay Screenshot OW2](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/ed9a25db-b895-4d5f-a6d7-7106cb81e6b6)
+![RTSS Overlay Screenshot OW2](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/7e3958df-6feb-4f85-813d-9ee6a1deefd2)
 
 This is what it looks like in 3DMark Timespy running in standard 2560x1440p on a 3440x1440p screen, where it works like a 2nd screen:
 
-![RTSS Overlay 3DMark Screenshot](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/7d816204-c821-4f23-b9bf-6212851b5d2e)
+![RTSS Overlay Screenshot 3DMark](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/38f0d4b6-f779-4167-9214-e15d9d24c89c)
 
 It also offers reduced versions, one for RDNA GPUs + Intel / all CPUs, and a compact version based on RTSS HAL only for maximum compatibility with all hardware & games:
 
-![RTSS Overlay Screenshot 3DMark reduced](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/4c57176d-ffa1-4667-aeee-126ea24b5047)
+![RTSS Overlay Screenshot 3DMark reduced](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/4141732f-0618-457a-9ac6-cce020ec6a96)
 
 Finally the compact version in horizontal layout:
 
-![image](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/4999cb12-d593-4ae4-adf1-0806ac9dfbbd)
+![RTSS Overlay Screenshot 3DMark horizontal](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/a64c6bd2-2d1f-4bc8-97fb-af9ce1950fa3)
 
 <h1>Additional supportive screenshots</h1>
 
 RTSS Font, Compatibility & Layout Settings:
 
-![RTSS Settings 1](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/16300f28-7c0a-49d2-885a-11e4e4520eca)
+![RTSS Settings 1](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/d2ec97f2-e551-4f54-9573-53d026fe892e)
 
 RTSS OSD Position, Hotkeys & HWiNFO settings:
 
-![RTSS Settings 2](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/005d7fc3-3872-42e0-8ead-c6c7234e1c0c)
+![RTSS Settings 2](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/cff75296-2a22-4f28-87e9-6bbec18ec5ac)
