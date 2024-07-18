@@ -13,7 +13,7 @@ PingAddr=185.60.112.157
 [General]
 Sources=144
 Tables=7
-Layers=92
+Layers=95
 [Source0]
 Name=GPU1 clock
 Units=MHz
@@ -169,7 +169,7 @@ Provider=HAL
 ID=GPU1 memory usage percent
 [Source19]
 Name=GPU1 memory controller usage
-Units=%
+Units=% IMC
 Format=
 Formula=
 Provider=HAL
@@ -1324,7 +1324,7 @@ Name=Table Core#16 1-16
 ValueSize=50
 ValueAlignment=-3
 UnitsSize=5
-Lines=3
+Lines=4
 Line0Name=
 Line0Cells=16
 Line0Cell0Source=CPU1 effective clock
@@ -1347,23 +1347,26 @@ Line1Name=
 Line1Cells=1
 Line1Cell0Text=
 Line2Name=
-Line2Cells=16
-Line2Cell0Source=CPU1 usage
-Line2Cell1Source=CPU2 usage
-Line2Cell2Source=CPU3 usage
-Line2Cell3Source=CPU4 usage
-Line2Cell4Source=CPU5 usage
-Line2Cell5Source=CPU6 usage
-Line2Cell6Source=CPU7 usage
-Line2Cell7Source=CPU8 usage
-Line2Cell8Source=CPU9 usage
-Line2Cell9Source=CPU10 usage
-Line2Cell10Source=CPU11 usage
-Line2Cell11Source=CPU12 usage
-Line2Cell12Source=CPU13 usage
-Line2Cell13Source=CPU14 usage
-Line2Cell14Source=CPU15 usage
-Line2Cell15Source=CPU16 usage
+Line2Cells=1
+Line2Cell0Text=
+Line3Name=
+Line3Cells=16
+Line3Cell0Source=CPU1 usage
+Line3Cell1Source=CPU2 usage
+Line3Cell2Source=CPU3 usage
+Line3Cell3Source=CPU4 usage
+Line3Cell4Source=CPU5 usage
+Line3Cell5Source=CPU6 usage
+Line3Cell6Source=CPU7 usage
+Line3Cell7Source=CPU8 usage
+Line3Cell8Source=CPU9 usage
+Line3Cell9Source=CPU10 usage
+Line3Cell10Source=CPU11 usage
+Line3Cell11Source=CPU12 usage
+Line3Cell12Source=CPU13 usage
+Line3Cell13Source=CPU14 usage
+Line3Cell14Source=CPU15 usage
+Line3Cell15Source=CPU16 usage
 [Table5]
 Name=Table Core#32 1-16
 ValueSize=50
@@ -1512,7 +1515,7 @@ ExtentX=-21
 ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
-TextColor=80FF8000,0,30,80DFD401,30,60,80BEFD1F,60,90,8000FFDD,90,120,800080FF,120,(Framerate,3)
+TextColor=FF8000,0,30,DFD401,30,60,BEFD1F,60,90,FFDD,90,120,80FF,120,(Framerate,3)
 [Layer6]
 Name=Layer FT Bar
 VisibilitySource=Frame Time
@@ -1534,7 +1537,7 @@ ExtentX=-21
 ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
-TextColor=800080FF,0,7,8000FFDD,7,11,80BEFD1F,11,17,80DFD401,17,33,80FF8000,33,(Frametime,3)
+TextColor=80FF,0,7,FFDD,7,11,BEFD1F,11,17,DFD401,17,33,FF8000,33,(Frametime,3)
 [Layer8]
 Name=Layer GP'U Driver
 Text=" <S=-50>%Driver%<S>"
@@ -1713,7 +1716,7 @@ TextColor=80FFFFFF
 [Layer24]
 Name=Layer GPU power
 Text=%GPU1 power%<S=50>W<S>
-PositionX=-54
+PositionX=-53
 PositionY=-1
 ExtentX=-1
 ExtentY=-1
@@ -1723,7 +1726,7 @@ FixedAlignment=1
 TextColor=80FFFFFF
 [Layer25]
 Name=Layer GPU usage percent
-Text=%GPU1 usage%<S=50>% gpu<S>
+Text=%GPU1 usage%<S=50>% GPU<S>
 PositionX=-58
 PositionY=-1
 ExtentX=-1
@@ -1765,8 +1768,8 @@ FixedAlignment=1
 TextColor=80FFFFFF
 [Layer29]
 Name=Layer VRAM usage text
-Text=%GPU1 memory usage% <S=50>/ %VRAM%<S>
-PositionX=-54
+Text=%GPU1 memory usage%<S=50>/ %VRAM%<S>
+PositionX=-53
 PositionY=-2
 ExtentX=-1
 ExtentY=-1
@@ -1776,7 +1779,7 @@ FixedAlignment=1
 TextColor=80FFFFFF
 [Layer30]
 Name=Layer VRAM usage percent
-Text=%GPU1 memory usage percent%<S=50>% ram<S>
+Text=%GPU1 memory usage percent%<S=50>% MEM<S>
 PositionX=-58
 PositionY=-2
 ExtentX=-1
@@ -1878,7 +1881,7 @@ TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(GPU SOC TDC 
 [Layer39]
 Name=Layer GPU SoC TDC text
 VisibilitySource=GPU SOC TDC Limit
-Text=%GPU SoC Current (VDDCR_SOC)%<S=50>A<S> | %GPU SOC TDC Limit%<S=50>% SoC<S>
+Text=%GPU SoC Current (VDDCR_SOC)%<S=50>A<S> | %GPU SOC TDC Limit%<S=50>% SOC<S>
 PositionX=-58
 PositionY=-3
 ExtentX=-1
@@ -2044,7 +2047,7 @@ TextColor=80FFFFFF
 [Layer54]
 Name=Layer CPU power
 Text=%CPU power%<S=50>W<S>
-PositionX=-84
+PositionX=-83
 PositionY=-1
 ExtentX=-1
 ExtentY=-1
@@ -2054,7 +2057,7 @@ FixedAlignment=1
 TextColor=80FFFFFF
 [Layer55]
 Name=Layer CPU usage percent
-Text=%CPU usage%<S=50>% cpu<S>
+Text=%CPU usage%<S=50>% CPU<S>
 PositionX=-88
 PositionY=-1
 ExtentX=-1
@@ -2121,8 +2124,8 @@ FixedAlignment=1
 TextColor=80FFFFFF
 [Layer61]
 Name=Layer DRAM usage text
-Text=%RAM usage% <S=50>/ %RAM%<S>
-PositionX=-84
+Text=%RAM usage%<S=50>/ %RAM%<S>
+PositionX=-83
 PositionY=-2
 ExtentX=-1
 ExtentY=-1
@@ -2132,7 +2135,7 @@ FixedAlignment=1
 TextColor=80FFFFFF
 [Layer62]
 Name=Layer DRAM usage percent
-Text=%RAM usage percent%<S=50>% ram<S>
+Text=%RAM usage percent%<S=50>% RAM<S>
 PositionX=-88
 PositionY=-2
 ExtentX=-1
@@ -2256,6 +2259,18 @@ FixedAlignment=1
 Size=90
 TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU usage,3)
 [Layer73]
+Name=Layer Core#32 1-16 usage History
+VisibilitySource=Is-32-Core-Layout
+Text=<G=CPU1 usage,-2,-1,1,0,100,60><G=CPU2 usage><G=CPU3 usage><G=CPU4 usage><G=CPU5 usage><G=CPU6 usage><G=CPU7 usage><G=CPU8 usage><G=CPU9 usage><G=CPU10 usage><G=CPU11 usage><G=CPU12 usage><G=CPU13 usage><G=CPU14 usage><G=CPU15 usage><G=CPU16 usage>
+PositionX=-90
+PositionY=0
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+Size=90
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(CPU usage,3)
+[Layer74]
 Name=Layer Core#32 1-16 usage text
 VisibilitySource=Is-32-Core-Layout
 Text=<TT=Table Core#32 1-16>
@@ -2266,7 +2281,7 @@ ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer74]
+[Layer75]
 Name=Layer Core#32 17-32 usage Bar
 VisibilitySource=Is-32-Core-Layout
 Text=<G=Framerate,-2,-1,1,0,100,38><G=CPU18 usage><G=CPU19 usage><G=CPU20 usage><G=CPU21 usage><G=CPU22 usage><G=CPU23 usage><G=CPU24 usage><G=CPU25 usage><G=CPU26 usage><G=CPU27 usage><G=CPU28 usage><G=CPU29 usage><G=CPU30 usage><G=CPU31 usage><G=CPU32 usage>
@@ -2278,7 +2293,19 @@ ExtentOrigin=0
 FixedAlignment=1
 Size=90
 TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU usage,3)
-[Layer75]
+[Layer76]
+Name=Layer Core#32 17-32 usage History
+VisibilitySource=Is-32-Core-Layout
+Text=<G=Framerate,-2,-1,1,0,100,60><G=CPU18 usage><G=CPU19 usage><G=CPU20 usage><G=CPU21 usage><G=CPU22 usage><G=CPU23 usage><G=CPU24 usage><G=CPU25 usage><G=CPU26 usage><G=CPU27 usage><G=CPU28 usage><G=CPU29 usage><G=CPU30 usage><G=CPU31 usage><G=CPU32 usage>
+PositionX=-90
+PositionY=-1
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
+Size=90
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(CPU usage,3)
+[Layer77]
 Name=Layer Core#32 17-32 usage text
 VisibilitySource=Is-32-Core-Layout
 Text=<TT=Table Core#32 17-32>
@@ -2289,7 +2316,7 @@ ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer76]
+[Layer78]
 Name=Layer Core#16 1-16 usage Bar
 VisibilitySource=Is-16-Core-Layout
 Text=<G=CPU1 usage,-2,-2,1,0,100,38><G=CPU2 usage><G=CPU3 usage><G=CPU4 usage><G=CPU5 usage><G=CPU6 usage><G=CPU7 usage><G=CPU8 usage><G=CPU9 usage><G=CPU10 usage><G=CPU11 usage><G=CPU12 usage><G=CPU13 usage><G=CPU14 usage><G=CPU15 usage><G=CPU16 usage>
@@ -2301,18 +2328,30 @@ ExtentOrigin=0
 FixedAlignment=1
 Size=90
 TextColor=800080FF,0,55,8000FFDD,55,65,80BEFD1F,65,75,80DFD401,75,95,80FF8000,95,(CPU usage,3)
-[Layer77]
-Name=Layer Core#16 1-16 usage text
+[Layer79]
+Name=Layer Core#16 1-16 usage History
 VisibilitySource=Is-16-Core-Layout
-Text=<TT=Table Core#16 1-16>
+Text=<G=CPU1 usage,-2,-2,1,0,100,60><G=CPU2 usage><G=CPU3 usage><G=CPU4 usage><G=CPU5 usage><G=CPU6 usage><G=CPU7 usage><G=CPU8 usage><G=CPU9 usage><G=CPU10 usage><G=CPU11 usage><G=CPU12 usage><G=CPU13 usage><G=CPU14 usage><G=CPU15 usage><G=CPU16 usage>
 PositionX=-90
 PositionY=0
 ExtentX=-29
 ExtentY=-2
 ExtentOrigin=0
 FixedAlignment=1
+Size=90
+TextColor=80FF,0,55,FFDD,55,65,BEFD1F,65,75,DFD401,75,95,FF8000,95,(CPU usage,3)
+[Layer80]
+Name=Layer Core#16 1-16 usage text
+VisibilitySource=Is-16-Core-Layout
+Text=<TT=Table Core#16 1-16>
+PositionX=-90
+PositionY=0
+ExtentX=-29
+ExtentY=-1
+ExtentOrigin=0
+FixedAlignment=1
 TextColor=80FFFFFF
-[Layer78]
+[Layer81]
 Name=Layer Water Bar
 VisibilitySource=Water Temperature
 Text=<G=Water Temperature,-29,-1,1,0,50,18>
@@ -2323,7 +2362,7 @@ ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=800080FF,0,20,8000FFDD,20,30,80BEFD1F,30,40,80DFD401,40,50,80FF8000,50,(Water Temperature,1)
-[Layer79]
+[Layer82]
 Name=Layer Water History
 VisibilitySource=Water Temperature
 Text=<G=Water Temperature,-29,-1,1,0,50,0>
@@ -2334,7 +2373,7 @@ ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=800080FF,0,20,8000FFDD,20,30,80BEFD1F,30,40,80DFD401,40,50,80FF8000,50,(Water Temperature,3)
-[Layer80]
+[Layer83]
 Name=Layer Pump rpm
 VisibilitySource=Pump-p
 Text=Pump %Pump-p%<S=50>rpm<S>
@@ -2345,7 +2384,7 @@ ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer81]
+[Layer84]
 Name=Layer Pump Fan
 VisibilitySource=Pump-p
 Text=Fan %CPU-f%<S=50>rpm<S>
@@ -2356,7 +2395,7 @@ ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer82]
+[Layer85]
 Name=Layer Pump Flow
 VisibilitySource=Pump-p
 Text=Flow <S=50>L/min<S>
@@ -2367,7 +2406,7 @@ ExtentY=-1
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer83]
+[Layer86]
 Name=Layer Water Temp
 VisibilitySource=Water Temperature
 Text=%Water Temperature%° <S=50>Water<S>
@@ -2379,7 +2418,7 @@ ExtentOrigin=0
 Alignment=-1
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer84]
+[Layer87]
 Name=Layer NET
 Text=<TT=Table NET>
 PositionX=-90
@@ -2389,7 +2428,7 @@ ExtentY=-3
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer85]
+[Layer88]
 Name=
 Text=
 PositionX=-90
@@ -2400,7 +2439,7 @@ ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
 BgndColor=4DC0C0C0
-[Layer86]
+[Layer89]
 Name=
 Text=
 PositionX=-90
@@ -2411,7 +2450,7 @@ ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
 BgndColor=4DC0C0C0
-[Layer87]
+[Layer90]
 Name=Layer WHEA Header
 Text=WHEA
 PositionX=-111
@@ -2422,7 +2461,7 @@ ExtentOrigin=0
 Alignment=-1
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer88]
+[Layer91]
 Name=
 Text=
 PositionX=-108
@@ -2433,7 +2472,7 @@ ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
 BgndColor=4DC0C0C0
-[Layer89]
+[Layer92]
 Name=Layer WHEA count
 VisibilitySource=Total Errors
 Text=%Total Errors%
@@ -2445,7 +2484,7 @@ ExtentOrigin=0
 Alignment=-1
 FixedAlignment=1
 TextColor=80FF8000
-[Layer90]
+[Layer93]
 Name=Layer Logo
 Text=<I=0,0,384,0,128,128>
 PositionX=-116
@@ -2455,7 +2494,7 @@ ExtentY=-2
 ExtentOrigin=0
 FixedAlignment=1
 TextColor=80FFFFFF
-[Layer91]
+[Layer94]
 Name=Layer Signature
 Text=(c) BreadPitCh
 PositionX=-118
