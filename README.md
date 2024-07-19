@@ -57,7 +57,7 @@ Second screen: if you want to use the Overlay on a 2nd screen:
   <li>Start <i>C:\Program Files (x86)\RivaTuner Statistics Server\DesktopOverlayHost.exe</i></li>
   <li>Configure an application profile with the Overlay window upper left and adjust the window to the overlay size. Then deactivate the in-game overlay for each  individual game using application profiles in the RTSS settings. See Screenshot below.</li>
 </ul>
-![image](https://github.com/user-attachments/assets/f7cb38f6-b3d3-4b23-8d36-d0db9a8477cc)
+![2nd screen setup](https://github.com/user-attachments/assets/f25272ee-6021-4198-8f10-9c00de0a7e47)
 
 <h1>Support</h1>
 
