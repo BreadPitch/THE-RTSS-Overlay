@@ -52,6 +52,12 @@ In RTSS finally
   <li>Load your preferred .ovl file you just unpacked to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b></li>
   <li>I recommend setting also Hotkeys to switch on/off the Overlay and start/stop benchmark recording. Go to <b><i>Setup / Plugins / HotkeyHandler.dll</i></b>. I use CTRL+M to Show OSD, CTRL+N to Hide OSD, CTRL+. to Start Recording, CTRL+, to end recording.
 </ul>
+Second screen: if you want to use the Overlay on a 2nd screen:
+<ul>
+  <li>Start <i>C:\Program Files (x86)\RivaTuner Statistics Server\DesktopOverlayHost.exe</i></li>
+  <li>Configure an application profile with the Overlay window upper left and adjust the window to the overlay size. Then deactivate the in-game overlay for each  individual game using application profiles in the RTSS settings. See Screenshot below.</li>
+</ul>
+![image](https://github.com/user-attachments/assets/f7cb38f6-b3d3-4b23-8d36-d0db9a8477cc)
 
 <h1>Support</h1>
 
