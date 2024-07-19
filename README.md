@@ -52,26 +52,14 @@ In RTSS finally
   <li>Load your preferred .ovl file you just unpacked to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b></li>
   <li>I recommend setting also Hotkeys to switch on/off the Overlay and start/stop benchmark recording. Go to <b><i>Setup / Plugins / HotkeyHandler.dll</i></b>. I use CTRL+M to Show OSD, CTRL+N to Hide OSD, CTRL+. to Start Recording, CTRL+, to end recording.
 </ul>
-Second screen: if you want to use the Overlay on a 2nd screen:
+
+<b>Second screen: if you want to use the Overlay on a 2nd screen</b>
 <ul>
-  <li>Start <i>C:\Program Files (x86)\RivaTuner Statistics Server\DesktopOverlayHost.exe</i></li>
-  <li>Configure an application profile with the Overlay window upper left and adjust the window to the overlay size. Then deactivate the in-game overlay for each  individual game using application profiles in the RTSS settings. See Screenshot below.</li>
+  <li>Start <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\DesktopOverlayHost.exe</i></b></li>
+  <li>Configure an application profile with the Overlay window position in the upper left corner, and adjust the window to the overlay size. Then deactivate the in-game overlay for each individual game using application profiles in the RTSS settings.</li>
 </ul>
-![2nd screen setup](https://github.com/user-attachments/assets/f25272ee-6021-4198-8f10-9c00de0a7e47)
 
-<h1>Support</h1>
-
-For RTSS Overlay Editor tips to customize the overlay to your CPU, GPU and/or mainboard, please refer to: https://forums.guru3d.com/threads/rtss-overlay-editor-megathread.436443/
-
-The only tip specific to my overlay:
-<ul>
-  <li>50% transparency is the default pre-set
-    <ul>
-      <li>For me is the ideal balance of blending into the game, and contrast to see all the nice telemetry.</li>
-      <li>You can tune transparency though by simply replacing the color codes in the .ovl file. Simply open it in eg. notepad++ and for all fixed color text elements in white, replace all instances of "=<b>80</b>FFFFFF" (50% transparency) by eg "=<b>CC</b>FFFFFF" for 80% transparency, or "=<b>99</b>FFFFFF" for 60% transparency.</li>
-      <li>Same can be done for replacing the dynmic colors, here, I would edit the entire dynamic color line and replace it per element, eg. the temperature values in the detailed tables. Though I suggest to keep the bars in 50% transparency, as this is what makes it possible to display the barchart history with 100% transparency on top of it.</li>
-    </ul>
-</ul>
+<b>See Screenshots for all relevant settings in the "Additional supportive screenshots" section below.</b>
 
 <h1>Screenshots</h1>
 
@@ -91,6 +79,20 @@ Finally the compact version in horizontal layout:
 
 ![RTSS Overlay Screenshot 3DMark horizontal](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/a64c6bd2-2d1f-4bc8-97fb-af9ce1950fa3)
 
+<h1>Support</h1>
+
+For RTSS Overlay Editor tips to customize the overlay to your CPU, GPU and/or mainboard, please refer to: https://forums.guru3d.com/threads/rtss-overlay-editor-megathread.436443/
+
+The only tip specific to my overlay:
+<ul>
+  <li>50% transparency is the default pre-set
+    <ul>
+      <li>For me is the ideal balance of blending into the game, and contrast to see all the nice telemetry.</li>
+      <li>You can tune transparency though by simply replacing the color codes in the .ovl file. Simply open it in eg. notepad++ and for all fixed color text elements in white, replace all instances of "=<b>80</b>FFFFFF" (50% transparency) by eg "=<b>CC</b>FFFFFF" for 80% transparency, or "=<b>99</b>FFFFFF" for 60% transparency.</li>
+      <li>Same can be done for replacing the dynmic colors, here, I would edit the entire dynamic color line and replace it per element, eg. the temperature values in the detailed tables. Though I suggest to keep the bars in 50% transparency, as this is what makes it possible to display the barchart history with 100% transparency on top of it.</li>
+    </ul>
+</ul>
+
 <h1>Additional supportive screenshots</h1>
 
 RTSS Font, Compatibility & Layout Settings:
@@ -100,3 +102,7 @@ RTSS Font, Compatibility & Layout Settings:
 RTSS OSD Position, Hotkeys & HWiNFO settings:
 
 ![RTSS Settings 2](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/cff75296-2a22-4f28-87e9-6bbec18ec5ac)
+
+2nd screen configuration:
+
+![2nd screen setup](https://github.com/user-attachments/assets/f25272ee-6021-4198-8f10-9c00de0a7e47)
