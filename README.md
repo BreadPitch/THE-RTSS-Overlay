@@ -105,4 +105,5 @@ RTSS OSD Position, Hotkeys & HWiNFO settings:
 
 2nd screen configuration:
 
-![2nd screen setup](https://github.com/user-attachments/assets/f25272ee-6021-4198-8f10-9c00de0a7e47)
+![2nd screen setup](https://github.com/user-attachments/assets/d4400d0f-1c35-4fe0-b64b-a5563ccb249e)
+
