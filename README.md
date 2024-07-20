@@ -34,16 +34,16 @@ Can be used both as <b>in-game overlay</b>, or on a <b>second screen</b>.
 
 Download & install RTSS from https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/
 
-Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. With v1.3, installation now is much easier. Simply <b>make sure RTSS is closed</b>, and copy the content of the .zip file to the RTSS installation folder, for most users this will be <i>C:\Program Files (x86)\RivaTuner Statistics Server</i>.
+Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. With v1.3, installation now is much easier. Simply <b>make sure RTSS is closed</b>, and copy the content of the .zip file to the RTSS installation folder, for most users this will be <b><i>C:\Program Files (x86)\RivaTuner Statistics Server</i></b>.
 <ul>
-  <li>With this, all settings as per installation instructions are pre-enabled</li>
-  <li><b>Lato-Regular.tff in the Fonts folder must still be installed manually</b> by doubleclick --> install</li>
-  <li><b>DesktopOverlayHost.exe</b> is enabled by default, you can turn it off by right-clicking and disabling "Start with Windows", then close. Alternatively, turn On-Screen Display support = OFF in Global profile, to just use DesktopOverlayHost.exe for 2nd screen.</li>
+  <li>With this, all settings as per manual installation instructions are automatically pre-enabled</li>
+  <li><b><i>Lato-Regular.tff</i> in the Fonts folder must still be installed manually</b> by doubleclick --> install</li>
+  <li><b><i>DesktopOverlayHost.exe</b></i> is enabled by default, you can turn it off by right-clicking and disabling <i>"Start with Windows"</i>, then close. Alternatively, turn <i>On-Screen Display support = OFF</i> in Global profile, to just use <i>DesktopOverlayHost.exe</i> for 2nd screen.</li>
 </ul>
 
 Download & install HWinfo from https://www.hwinfo.com/download/
 <ul>
-    <li>I prefer portable version, just copy <b><i>HWiNFO64.EXE</i></b> to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\</i></b>. This way it will use the HWiNFO64.INI file that I provide in the package with my recommended settings.</li>
+    <li>I prefer portable version, just copy <b><i>HWiNFO64.EXE</i></b> to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\</i></b>. This way it will use the <i>HWiNFO64.INI</i> file that I provide in the package with my recommended settings.</li>
     <li>Start HWiNFO from there and activate <b><i>Shared Memory Support</i></b> in HWinfo settings under <b><i>Settings / Main Settings</i></b>. Needs to be re-enabled every 24 hours, or you need to buy the Pro version.</li>
   </ul>
 
@@ -54,7 +54,7 @@ Download & install HWinfo from https://www.hwinfo.com/download/
     <li>Activate <b><i>Use Microsoft Detours API hooking</i></b> under <b><i>SetUp / General / Injection properties</i></b> for compatibility</li>
     <li>Activate <b><i>Enable benchmark mode</i></b> under <b><i>SetUp / General / Compatibility properties</i></b></li>
   </ul>
-  <li>Download the <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site and copy all files in Plugins\Client\Overlays to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b></li>
+  <li>Download the <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site and copy all files in <b><i>Plugins\Client\Overlays</i></b> to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b></li>
   <ul>
     <li>Doubleclick <b><i>Lato-Regular.ttf</i></b> in the Fonts folder and install the Lato Regular font</li>
     <li>Make sure the font is set in the RTSS Main Settings under <b><i>On-Screen Display rendering mode / Raster 3D</i></b> (Lato / Regular / 7)</li>
@@ -67,7 +67,7 @@ In RTSS finally
   <li>I recommend setting also Hotkeys to switch on/off the Overlay and start/stop benchmark recording. Go to <b><i>Setup / Plugins / HotkeyHandler.dll</i></b>. I use CTRL+M to Show OSD, CTRL+N to Hide OSD, CTRL+. to Start Recording, CTRL+, to end recording.
 </ul>
 
-Finally download & install HWinfo as described above, and copy the HWiNFO64.INI to RTSS installation folder, for most users this will be <i>C:\Program Files (x86)\RivaTuner Statistics Server</i>.
+Finally download & install HWinfo as described above, and copy the HWiNFO64.INI to RTSS installation folder, for most users this will be <b><i>C:\Program Files (x86)\RivaTuner Statistics Server</i></b>.
 
 <h2>Alternative: manual configuration for second screen - additional steps</h2>
 If you want to use the Overlay on a 2nd screen, follow these additional steps:
