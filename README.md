@@ -34,9 +34,14 @@ Can be used both as <b>in-game overlay</b>, or on a <b>second screen</b>.
 
 Download & install RTSS from https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/
 
-Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. With v1.3, installation now is much easier. Simply <b>make sure RTSS is closed</b>, and copy the content of the .zip file to the RTSS installation folder, for most users this will be <b><i>C:\Program Files (x86)\RivaTuner Statistics Server</i></b>.
+Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. With v1.3, installation now is much easier. Simply <b>make sure RTSS is closed</b>, and <b>copy the content of the .zip file to the RTSS installation folder</b>, for most users this will be <b><i>C:\Program Files (x86)\RivaTuner Statistics Server</i></b>.
 <ul>
   <li>With this, all settings as per manual installation instructions are automatically pre-enabled</li>
+  <li>By default, the .ovl with 100% font size and all RDNA & Ryzen metrics from HWiNFO is activated.
+    <ul>
+      <li>Simply load your preferred .ovl overlay in the Overlay Editor; after copying / unpacking you find all versions at <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b>)</li>
+      <li>If you do not use HWiNFO, or have an nVidia GPU or Intel CPU, I recommend to load <b><i>BreadPitCh-Size100-RTSS-Compact4all.ovl</i></b>, or the -horizontal version, based on your preference</li>
+    </ul>
   <li><b><i>Lato-Regular.tff</i> in the Fonts folder must still be installed manually</b> by doubleclick --> install</li>
   <li><b><i>DesktopOverlayHost.exe</b></i> is enabled by default, you can turn it off by right-clicking and disabling <i>"Start with Windows"</i>, then close. Alternatively, turn <i>On-Screen Display support = OFF</i> in Global profile, to just use <i>DesktopOverlayHost.exe</i> for 2nd screen.</li>
 </ul>
@@ -63,7 +68,7 @@ Download & install HWinfo from https://www.hwinfo.com/download/
 In RTSS finally
 <ul>
   <li>Enable the RTSS OverlayEditor in RTSS under <b><i>Setup / Plugins / OverlayEditor.dll / Layouts / Load</i></b></li>
-  <li>Load your preferred .ovl file you just unpacked to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b></li>
+  <li>Load your preferred .ovl file you just unpacked (you find it at to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b>)</li>
   <li>I recommend setting also Hotkeys to switch on/off the Overlay and start/stop benchmark recording. Go to <b><i>Setup / Plugins / HotkeyHandler.dll</i></b>. I use CTRL+M to Show OSD, CTRL+N to Hide OSD, CTRL+. to Start Recording, CTRL+, to end recording.
 </ul>
 
