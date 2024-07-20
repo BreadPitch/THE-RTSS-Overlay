@@ -2,6 +2,8 @@
 Provides a sleek, yet pretty complete overlay for use with RTSS / RivaTuner Statistics Server.
 Made for AMD Ryzen + RDNA 1/2/3, but trimmed down for compatibility with most CPUs and GPUs.
 
+Can be used both as <b>in-game overlay</b>, or on a <b>second screen</b>.
+
 ![RTSS Overlay Screenshot OW2 Full](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/9f643e49-674d-46c8-ab2b-460aee7064d2)
 
 <h1>Features</h1>
@@ -29,6 +31,7 @@ Made for AMD Ryzen + RDNA 1/2/3, but trimmed down for compatibility with most CP
 </ul>
 
 <h1>Installation Instructions</h1>
+<h2>Basic installation</h2>
 <ul>
   <li>Dowload & install RTSS from https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/</li>
   <ul>
@@ -53,7 +56,8 @@ In RTSS finally
   <li>I recommend setting also Hotkeys to switch on/off the Overlay and start/stop benchmark recording. Go to <b><i>Setup / Plugins / HotkeyHandler.dll</i></b>. I use CTRL+M to Show OSD, CTRL+N to Hide OSD, CTRL+. to Start Recording, CTRL+, to end recording.
 </ul>
 
-<b>Second screen: if you want to use the Overlay on a 2nd screen</b>
+<h2>Second screen configuration - additional steps</h2>
+If you want to use the Overlay on a 2nd screen, follow these additional steps:
 <ul>
   <li>Start <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\DesktopOverlayHost.exe</i></b></li>
   <li>Configure an RTSS application profile for <b><i>DesktopOverlayHost.exe</i></b> with the Overlay window position in the upper left corner, and adjust the window to the overlay size. In "Global" profile turn "On Screen Display support" = OFF, or deactivate the OSD for each individual game using application profiles in the RTSS settings.</li>
@@ -95,15 +99,17 @@ The only tip specific to my overlay:
 
 <h1>Additional supportive screenshots</h1>
 
-RTSS Font, Compatibility & Layout Settings:
+<h2>RTSS Font, Compatibility & Layout Settings</h2>
 
-![RTSS Settings 1](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/d2ec97f2-e551-4f54-9573-53d026fe892e)
+![RTSS Settings 1](https://github.com/user-attachments/assets/bab1af1c-d0f7-48b1-a2df-7a57f9f246f7)
 
-RTSS OSD Position, Hotkeys & HWiNFO settings:
+<h2>RTSS OSD Position, Hotkeys & HWiNFO settings</h2>
 
-![RTSS Settings 2](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/cff75296-2a22-4f28-87e9-6bbec18ec5ac)
+![RTSS Settings 2](https://github.com/user-attachments/assets/794a01b6-b60e-4285-b2e4-327c13559462)
 
-2nd screen configuration:
+<h2>2nd screen configuration</h2>
 
-![2nd screen setup](https://github.com/user-attachments/assets/d4400d0f-1c35-4fe0-b64b-a5563ccb249e)
+![2nd screen setup](https://github.com/user-attachments/assets/950e5c14-4937-43bf-9e81-ed32130b55bb)
+
+
 
