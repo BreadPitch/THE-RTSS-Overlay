@@ -34,7 +34,7 @@ Can be used both as <b>in-game overlay</b>, or on a <b>second screen</b>.
 
 Download & install RTSS from https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/
 
-Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. With v1.3, installation now is much easier. Simply make sure RTSS is closed, and copy the content of the .zip file to the RTSS installation folder, for most users this will be <i>C:\Program Files (x86)\RivaTuner Statistics Server</i>.
+Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. With v1.3, installation now is much easier. Simply <b>make sure RTSS is closed</b>, and copy the content of the .zip file to the RTSS installation folder, for most users this will be <i>C:\Program Files (x86)\RivaTuner Statistics Server</i>.
 <ul>
   <li>With this, all settings as per installation instructions are pre-enabled</li>
   <li><b>Lato-Regular.tff in the Fonts folder must still be installed manually</b> by doubleclick --> install</li>
