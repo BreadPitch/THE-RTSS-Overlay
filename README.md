@@ -6,6 +6,8 @@ Can be used both as <b>in-game overlay</b>, or on a <b>second screen</b>.
 
 ![RTSS Overlay Screenshot Intro](https://github.com/user-attachments/assets/421ff9ef-b420-4214-bb9e-2b9d77181f56)
 
+![RTSS Overlay Screenshot OW2 Full](https://github.com/user-attachments/assets/3d2ee08b-ba1a-4945-8e5a-84aefc4f63e7)
+
 <h1>Features</h1>
 <ul>
   <li>Auto-detection of CPU & GPU, auto-selection of vendor logo</li>
