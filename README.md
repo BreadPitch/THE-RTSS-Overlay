@@ -4,7 +4,7 @@ Made for AMD Ryzen + RDNA 1/2/3, but trimmed down for compatibility with most CP
 
 Can be used both as <b>in-game overlay</b>, or on a <b>second screen</b>.
 
-![RTSS Overlay Screenshot OW2 Full](https://github.com/BreadPitch/THE-RTSS-Overlay/assets/55409475/9f643e49-674d-46c8-ab2b-460aee7064d2)
+![RTSS Overlay Screenshot Intro](https://github.com/user-attachments/assets/421ff9ef-b420-4214-bb9e-2b9d77181f56)
 
 <h1>Features</h1>
 <ul>
@@ -34,13 +34,14 @@ Can be used both as <b>in-game overlay</b>, or on a <b>second screen</b>.
 
 Download & install RTSS from https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/
 
-Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. With v1.3, installation now is much easier. Simply <b>make sure RTSS is closed</b>, and <b>copy the content of the .zip file to the RTSS installation folder</b>, for most users this will be <b><i>C:\Program Files (x86)\RivaTuner Statistics Server</i></b>.
+Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site. From v1.3 on, installation now is much easier. Simply <b>make sure RTSS is closed</b>, and <b>copy the content of the .zip file to the RTSS installation folder</b>, for most users this will be <b><i>C:\Program Files (x86)\RivaTuner Statistics Server</i></b>.
 <ul>
   <li>With this, all settings as per manual installation instructions are automatically pre-enabled</li>
-  <li>By default, the .ovl with 100% font size and all RDNA & Ryzen metrics from HWiNFO is activated.
+  <li>By default, the most universal <i>BreadPitCh-Size100-RTSS-Compact4all.ovl</i> with 100% font size is loaded.
     <ul>
+      <li>If you use HWiNFO in the background and want all RDNA & Ryzen metrics from it, load <i>BreadPitCh-Size100-HWinfo-Full-RDNA-Ryzen</i>
+      <li>If you do not use HWiNFO, or have an nVidia GPU or Intel CPU, I recommend to stick to <b><i>BreadPitCh-Size100-RTSS-Compact4all.ovl</i></b>, or the -horizontal version, based on your preference</li>
       <li>Simply load your preferred .ovl overlay in the Overlay Editor; after copying / unpacking you find all versions at <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b>)</li>
-      <li>If you do not use HWiNFO, or have an nVidia GPU or Intel CPU, I recommend to load <b><i>BreadPitCh-Size100-RTSS-Compact4all.ovl</i></b>, or the -horizontal version, based on your preference</li>
     </ul>
   <li><b><i>Lato-Regular.tff</i> in the Fonts folder must still be installed manually</b> by doubleclick --> install</li>
   <li><b><i>DesktopOverlayHost.exe</b></i> is enabled by default, you can turn it off by right-clicking and disabling <i>"Start with Windows"</i>, then close. Alternatively, turn <i>On-Screen Display support = OFF</i> in Global profile, to just use <i>DesktopOverlayHost.exe</i> for 2nd screen.</li>
@@ -52,12 +53,35 @@ Download & install HWinfo from https://www.hwinfo.com/download/
     <li>Start HWiNFO from there and activate <b><i>Shared Memory Support</i></b> in HWinfo settings under <b><i>Settings / Main Settings</i></b>. Needs to be re-enabled every 24 hours, or you need to buy the Pro version.</li>
   </ul>
 
-<h2>Alternative: manual configuration</h2>
+<h2>Recommended settings for optimal GPU performance & display quality</h2>
+
+Settings for VRR = FreeSync & G-Sync monitors:
+<ul>
+  <li>G-Sync / FreeSync ON in GPU drivers. If not available, check in your monitor OSD</li>
+  <li>V-Sync ON in GPU driver</li>
+  <li>Frame Limiter ON and set to 2-7 FPS less than your monitors refresh rate in Hz, so eg. 144 Hz = 137 FPS frame limit</li>
+  <ul>
+    <li>Frame Limit ideally set in-game (best input latency)</li>
+    <li>If not available in-game, set Frame Limit in RTSS (just a little more latency). Setting it in GPU driver performs worst.</li>
+  </ul>
+</ul>
+
+Settings for non-VRR monitors: see this <a href=https://forums.blurbusters.com/viewtopic.php?t=4916>BlurBusters</a> how-to.
+
+Sources for more information:
+<ul>
+  <li>For VRR = FreeSync & G-Sync monitors: <a href=https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/>BlurBusters</a></li>
+  <li>For non-VRR monitors: <a href=https://forums.blurbusters.com/viewtopic.php?t=4916>BlurBusters</a>, <a href=https://forums.guru3d.com/threads/is-someone-able-to-explain-how-async-and-back-edge-sync-differ-thanks.447580/#post-6124964>RTSS author Unwinder</a>, <a href=https://forums.guru3d.com/threads/is-someone-able-to-explain-how-async-and-back-edge-sync-differ-thanks.447580/#post-6124849>RTSS forum</a></li>
+</ul>
+
+<h2>Alternative: manual RTSS configuration</h2>
+Reminder: all settings are pre-set if you extract / copy all files & folders of the .zip file to the RTSS installation folder.
 <ul>
   <li>Download & install RTSS from https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/</li>
   <ul>
-    <li>Activate <b><i>Use Microsoft Detours API hooking</i></b> under <b><i>SetUp / General / Injection properties</i></b> for compatibility</li>
+    <li>Activate <b><i>Use Microsoft Detours API hooking</i></b> under <b><i>SetUp / General / Injection properties</i></b> for compatibility, eg. with Witcher 3 FG mod, or to have RTSS & Discord Overlay work alongside in OW2.</li>
     <li>Activate <b><i>Enable benchmark mode</i></b> under <b><i>SetUp / General / Compatibility properties</i></b></li>
+    <li>Activate <b><i>Enable frame limiter</i></b> = async under <b><i>SetUp / General / Compatibility properties</i></b></li>
   </ul>
   <li>Download the <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site and copy all files in <b><i>Plugins\Client\Overlays</i></b> to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b></li>
   <ul>
@@ -69,12 +93,12 @@ In RTSS finally
 <ul>
   <li>Enable the RTSS OverlayEditor in RTSS under <b><i>Setup / Plugins / OverlayEditor.dll / Layouts / Load</i></b></li>
   <li>Load your preferred .ovl file you just unpacked (you find it at to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b>)</li>
-  <li>I recommend setting also Hotkeys to switch on/off the Overlay and start/stop benchmark recording. Go to <b><i>Setup / Plugins / HotkeyHandler.dll</i></b>. I use CTRL+M to Show OSD, CTRL+N to Hide OSD, CTRL+. to Start Recording, CTRL+, to end recording.
+  <li>I recommend setting also Hotkeys to switch on/off the Overlay and start/stop benchmark recording. Go to <b><i>Setup / Plugins / HotkeyHandler.dll</i></b>. I use CTRL+M to toggle OSD (on/off), CTRL+, to Start Recording, CTRL+. to end recording, and CTRL+- to toggle Frame Limiter (on/off).
 </ul>
 
 Finally download & install HWinfo as described above, and copy the HWiNFO64.INI to RTSS installation folder, for most users this will be <b><i>C:\Program Files (x86)\RivaTuner Statistics Server</i></b>.
 
-<h2>Alternative: manual configuration for second screen - additional steps</h2>
+<h2>Alternative: manual RTSS configuration for second screen - additional steps</h2>
 If you want to use the Overlay on a 2nd screen, follow these additional steps:
 <ul>
   <li>Start <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\DesktopOverlayHost.exe</i></b></li>
