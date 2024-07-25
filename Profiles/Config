@@ -57,8 +57,8 @@ Version=00000009
 [Settings]
 LastUpdateCheck=669A81D6h
 Skin=default.usf
-WindowX=1965
-WindowY=486
+WindowX=2178
+WindowY=532
 FirstRun=0
 StartMinimized=1
 StartWithWindows=1
@@ -67,13 +67,13 @@ EnableEncoderServer=1
 Enable64Bit=1
 Use64BitEncoderServer=1
 HidePreCreatedProfiles=1
-UpdateCheckingPeriod=3
+UpdateCheckingPeriod=4
 Language=
 LayeredWindowMode=1
 LayeredWindowAlpha=244
 ScaleFactor=100
 [Shared]
-Flags=00000105
+Flags=00000101
 [Plugins]
 OverlayEditor.dll=1
 HotkeyHandler.dll=1

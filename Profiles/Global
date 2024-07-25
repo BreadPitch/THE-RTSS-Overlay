@@ -1,5 +1,5 @@
 [Info]
-Timestamp=20-07-2024, 09:52:30
+Timestamp=25-07-2024, 10:36:50
 [OSD]
 EnableOSD=1
 EnableBgnd=1
@@ -40,7 +40,7 @@ SyncPeriods=0
 SyncLimiter=0
 PassiveWait=1
 ReflexSleep=0
-ReflexSetLatencyMarker=1
+ReflexSetLatencyMarker=0
 [Hooking]
 EnableHooking=1
 EnableFloatingInjectionAddress=0
