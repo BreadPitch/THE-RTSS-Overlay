@@ -41,8 +41,8 @@ Download <i>THE-RTSS-Overlay</i> <a href="https://github.com/BreadPitch/THE-RTSS
   <li>With this, all settings as per manual installation instructions are automatically pre-enabled</li>
   <li>By default, the most universal <i>BreadPitCh-Size100-RTSS-Compact4all.ovl</i> with 100% font size is loaded.
     <ul>
-      <li>If you use HWiNFO in the background and want all RDNA & Ryzen metrics from it, load <i>BreadPitCh-Size100-HWinfo-Full-RDNA-Ryzen</i>
-      <li>If you do not use HWiNFO, or have an nVidia GPU or Intel CPU, I recommend to stick to <b><i>BreadPitCh-Size100-RTSS-Compact4all.ovl</i></b>, or the -horizontal version, based on your preference</li>
+      <li>If you use HWiNFO in the background and want all RDNA & Ryzen metrics from it, load <i>BreadPitCh-Size100-HWinfo-Full-RDNA-Ryzen.ovl</i>
+      <li>If you do not use HWiNFO, or have an nVidia GPU or Intel CPU, I recommend to stick to <i>BreadPitCh-Size100-RTSS-Compact4all.ovl</i>, or the -horizontal version, based on your preference</li>
       <li>Simply load your preferred .ovl overlay in the Overlay Editor; after copying / unpacking you find all versions at <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b>)</li>
     </ul>
   <li><b><i>Lato-Regular.tff</i> in the Fonts folder must still be installed manually</b> by doubleclick --> install</li>
@@ -59,21 +59,22 @@ Download & install HWinfo from https://www.hwinfo.com/download/
 
 Settings for VRR = FreeSync & G-Sync monitors:
 <ul>
-  <li>G-Sync / FreeSync ON in GPU drivers. If not available, check in your monitor OSD</li>
-  <li>V-Sync ON in GPU driver</li>
-  <li>Frame Limiter ON and set to 2-7 FPS less than your monitors refresh rate in Hz, so eg. 144 Hz = 137 FPS frame limit</li>
+  <li><b>G-Sync / FreeSync ON in GPU drivers</b>. If not available, check in your monitor OSD</li>
+  <li><b>V-Sync ON in GPU driver</b></li>
+  <li><b>Frame Limiter ON and set to 2-7 FPS less than Hz</b> = your monitors refresh rate in Hz, so eg. 144 Hz = 137 FPS frame limit</li>
   <ul>
-    <li>Frame Limit ideally set in-game (best input latency)</li>
-    <li>If not available in-game, set Frame Limit in RTSS (just a little more latency). Setting it in GPU driver performs worst.</li>
+    <li><b>In-game FPS limiters</b> perform best with regards to input latency</li>
+    <li>GPU driver FPS limiters perform worst</li>
+    <li>RTSS frame limiter performs almost as good as in-game. So if not available in-game, set "Enable frame limiter" in RTSS General settings. This enables RTSS frame limiter across all profiles in general settings, but it is inactive if FPS limit set to 0 in Global & game profiles. To enable, set to desired FPS limit in each profile. But remember, in-game FPS limiter is preferred for performance.</li>
   </ul>
 </ul>
 
-Settings for non-VRR monitors: see this <a href=https://forums.blurbusters.com/viewtopic.php?t=4916>BlurBusters</a> how-to.
+Settings for non-VRR monitors: see this how-to on <a href="https://forums.blurbusters.com/viewtopic.php?t=4916">BlurBusters</a>.
 
 Sources for more information:
 <ul>
-  <li>For VRR = FreeSync & G-Sync monitors: <a href=https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/>BlurBusters</a></li>
-  <li>For non-VRR monitors: <a href=https://forums.blurbusters.com/viewtopic.php?t=4916>BlurBusters</a>, <a href=https://forums.guru3d.com/threads/is-someone-able-to-explain-how-async-and-back-edge-sync-differ-thanks.447580/#post-6124964>RTSS author Unwinder</a>, <a href=https://forums.guru3d.com/threads/is-someone-able-to-explain-how-async-and-back-edge-sync-differ-thanks.447580/#post-6124849>RTSS forum</a></li>
+  <li>For VRR = FreeSync & G-Sync monitors: <a href="https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/">BlurBusters</a></li>
+  <li>For non-VRR monitors: <a href="https://forums.blurbusters.com/viewtopic.php?t=4916">BlurBusters</a>, <a href="https://forums.guru3d.com/threads/is-someone-able-to-explain-how-async-and-back-edge-sync-differ-thanks.447580/#post-6124964">RTSS author Unwinder</a>, <a href="https://forums.guru3d.com/threads/is-someone-able-to-explain-how-async-and-back-edge-sync-differ-thanks.447580/#post-6124849">RTSS forum</a></li>
 </ul>
 
 <h2>Alternative: manual RTSS configuration</h2>
@@ -83,7 +84,7 @@ Reminder: all settings are pre-set if you extract / copy all files & folders of 
   <ul>
     <li>Activate <b><i>Use Microsoft Detours API hooking</i></b> under <b><i>SetUp / General / Injection properties</i></b> for compatibility, eg. with Witcher 3 FG mod, or to have RTSS & Discord Overlay work alongside in OW2.</li>
     <li>Activate <b><i>Enable benchmark mode</i></b> under <b><i>SetUp / General / Compatibility properties</i></b></li>
-    <li>Activate <b><i>Enable frame limiter</i></b> = async under <b><i>SetUp / General / Compatibility properties</i></b></li>
+    <li>Activate <b><i>Enable frame limiter</i></b> = async under <b><i>SetUp / General / Compatibility properties</i></b>. This enables RTSS frame limiter across all profiles in general settings, but it is inactive if set to 0 in Global & game profiles. To enable, set to desired FPS limit in each profile. But remember, in-game FPS limiter is preferred for performance.</li>
   </ul>
   <li>Download the <a href="https://github.com/BreadPitch/THE-RTSS-Overlay/releases">latest release Source code.zip</a> from this site and copy all files in <b><i>Plugins\Client\Overlays</i></b> to <b><i>C:\Program Files (x86)\RivaTuner Statistics Server\Plugins\Client\Overlays</i></b></li>
   <ul>
